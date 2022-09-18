@@ -17,14 +17,16 @@ public  class calculationPageTest{
     @BeforeClass
     @Parameters(value = "browser")
     public void setup(String browser){
-        if(browser.equals("firefox")){
-            System.setProperty("webdriver.gecko.driver","./Browser drivers/geckodriver");
-            driver = new FirefoxDriver();
-        }else if(browser.equals("chrome")){
-            System.setProperty("webdriver.chrome.driver","./Browser drivers/chromedriver");
-            driver = new ChromeDriver();
-        }else if (browser.equals("safari")){
-            driver = new SafariDriver();
+        switch (browser) {
+            case "firefox" -> {
+                System.setProperty("webdriver.gecko.driver", "./Browser drivers/geckodriver");
+                driver = new FirefoxDriver();
+            }
+            case "chrome" -> {
+                System.setProperty("webdriver.chrome.driver", "./Browser drivers/chromedriver");
+                driver = new ChromeDriver();
+            }
+            case "safari" -> driver = new SafariDriver();
         }
     }
     @Test(priority = 2, dataProvider = "data")
@@ -39,6 +41,7 @@ public  class calculationPageTest{
                 elements.moveByOffset(25,25).perform();
             }
         }catch (Exception e){
+            e.printStackTrace();
         }
 
         elements.principal.sendKeys(principalAmount);
@@ -55,11 +58,11 @@ public  class calculationPageTest{
     public Object[][] dataProvider() throws IOException{
         DataFormatter dataFormatter = new DataFormatter();
         Object[][] inputs = new Object[5][4];
-        XSSFWorkbook workbook = new XSSFWorkbook(new FileInputStream("./src/test/Files/caldata.xlsx"));
+        XSSFWorkbook workbook = new XSSFWorkbook(new FileInputStream("./src/test/Files/Data.xlsx"));
         XSSFSheet sheet = workbook.getSheet("Sheet1");
         for (int row = 1; row <= 5; row++) {
             for (int column = 0; column <= 3; column++) {
-                inputs[row-1][column] = dataFormatter.formatCellValue(sheet.getRow(row).getCell(column));;
+                inputs[row-1][column] = dataFormatter.formatCellValue(sheet.getRow(row).getCell(column));
             }
         }
         return inputs;
