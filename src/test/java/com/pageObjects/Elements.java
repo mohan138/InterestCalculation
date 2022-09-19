@@ -9,7 +9,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 
 public class Elements extends Actions {
-    private WebDriver driver;
+    private final WebDriver driver;
 
     public Elements(WebDriver driver) {
         super(driver);
