@@ -7,11 +7,9 @@ import org.openqa.selenium.safari.SafariDriver;
 import org.testng.annotations.*;
 
 public class setupAndClose {
-
     public WebDriver driver;
     public Log log = new Log();
-
-    @BeforeClass
+    @BeforeClass()
     @Parameters(value = "browser")
     public void setup(String browser){
         switch (browser){
@@ -35,5 +33,4 @@ public class setupAndClose {
     public void tearDown(){
         driver.quit();
     }
-
 }
