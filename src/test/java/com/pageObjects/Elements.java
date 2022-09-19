@@ -1,3 +1,5 @@
+package com.pageObjects;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -16,28 +18,28 @@ public class Elements extends Actions {
     }
 
     @FindBy(id = "wzrk-cancel")
-    WebElement notificationCancel;
+    public WebElement notificationCancel;
     @FindBy(id = "principal")
-    WebElement principal;
+    public WebElement principal;
     @FindBy(id = "interest")
-    WebElement interest;
+    public WebElement interest;
     @FindBy(id = "tenure")
-    WebElement tenure;
+    public WebElement tenure;
 
-    public Select tenurePeriod() {
+     public Select tenurePeriod() {
         return new Select(driver.findElement(By.id("tenurePeriod")));
     }
-
     public Select frequency() {
         return new Select(driver.findElement(By.id("frequency")));
     }
 
     @FindBy(id = "resp_matval")
-    WebElement maturityValue;
+    public WebElement maturityValue;
     @FindBy(xpath = "//*[@id=\"fdMatVal\"]/div[2]/a[1]/img")
-    WebElement calculate;
+    public WebElement calculate;
     @FindBy(xpath = "//*[@id=\"fdMatVal\"]/div[2]/a[2]/img")
-    WebElement clear;
+    public WebElement clear;
+
 
 }
 

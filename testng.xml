@@ -1,22 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Test-method Suite" parallel="methods" thread-count="2" >
+<suite name="All Test Suite">
     <test name="Chrome Test">
+
         <parameter name="browser" value="chrome"></parameter>
         <classes>
-            <class name="calculationPageTest"></class>
+            <class name="com.testCases.calculationPageTest">
+                <methods>
+                    <include name="calculationPage"/>
+                </methods>
+            </class>
         </classes>
     </test>
+
     <test name="Firefox Test">
         <parameter name="browser" value="firefox"></parameter>
         <classes>
-            <class name="calculationPageTest"></class>
+            <class name="com.testCases.calculationPageTest">
+                <methods>
+                    <include name="calculationPage"/>
+                </methods>
+            </class>
         </classes>
     </test>
+
     <test name="Safari Test">
         <parameter name="browser" value="safari"></parameter>
         <classes>
-            <class name="calculationPageTest"></class>
+            <class name="com.testCases.calculationPageTest">
+                <methods>
+                    <include name="calculationPage"/>
+                </methods>
+            </class>
         </classes>
     </test>
+
 </suite>
