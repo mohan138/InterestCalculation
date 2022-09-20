@@ -1,11 +1,8 @@
 package com.testCases;
 
 import com.pageObjects.Elements;
-import org.apache.poi.ss.usermodel.DataFormatter;
-import org.apache.poi.xssf.usermodel.XSSFSheet;
-import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import com.utilities.ReadingExel;
 import org.testng.annotations.*;
-import java.io.FileInputStream;
 import java.io.IOException;
 
 public  class calculationPageTest extends setupAndClose{
@@ -43,15 +40,7 @@ public  class calculationPageTest extends setupAndClose{
 
     @DataProvider(name = "data")
     public Object[][] dataProvider() throws IOException{
-        DataFormatter dataFormatter = new DataFormatter();
-        Object[][] inputs = new Object[5][4];
-        XSSFWorkbook workbook = new XSSFWorkbook(new FileInputStream("./Files/Data.xlsx"));
-        XSSFSheet sheet = workbook.getSheet("Sheet1");
-        for (int row = 1; row <= 5; row++) {
-            for (int column = 0; column <= 3; column++) {
-                inputs[row-1][column] = dataFormatter.formatCellValue(sheet.getRow(row).getCell(column));
-            }
-        }
-        return inputs;
+        ReadingExel excel = new ReadingExel("./Files/Data.xlsx","Sheet1");
+        return excel.getData();
     }
 }

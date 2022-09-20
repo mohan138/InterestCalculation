@@ -4,8 +4,7 @@
 
 
     <test name="Chrome Test">
-
-        <parameter name="browser" value="chrome"></parameter>
+        <parameter name="browser" value="chrome"/>
         <classes>
             <class name="com.testCases.calculationPageTest">
                 <methods>
@@ -16,7 +15,7 @@
     </test>
 
     <test name="Firefox Test">
-        <parameter name="browser" value="firefox"></parameter>
+        <parameter name="browser" value="firefox"/>
         <classes>
             <class name="com.testCases.calculationPageTest">
                 <methods>
@@ -27,7 +26,7 @@
     </test>
 
     <test name="Safari Test">
-        <parameter name="browser" value="safari"></parameter>
+        <parameter name="browser" value="safari"/>
         <classes>
             <class name="com.testCases.calculationPageTest">
                 <methods>
