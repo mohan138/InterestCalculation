@@ -8,32 +8,30 @@ import java.io.FileInputStream;
 import java.io.IOException;
 
 public class ReadingExel {
-    private String fileLocation;
-    private String sheetName;
+    String sheetName;
     XSSFWorkbook workbook;
 
     XSSFSheet sheet;
     public ReadingExel(String fileLocation,String sheetName) throws IOException {
-        this.fileLocation = fileLocation;
         this.sheetName = sheetName;
-        workbook = new XSSFWorkbook(new FileInputStream(this.fileLocation));
+        workbook = new XSSFWorkbook(new FileInputStream(fileLocation));
         sheet = workbook.getSheet(sheetName);
     }
 
-    public Object[][] getData() throws IOException {
+    public Object[][] getData() {
 
         return getData(1);
     }
 
-    public Object[][] getData(int startingRow) throws IOException {
+    public Object[][] getData(int startingRow) {
         return getData(startingRow,1);
     }
 
-    public Object[][] getData(int startingRow, int startingColumn) throws IOException {
+    public Object[][] getData(int startingRow, int startingColumn) {
         return getData(startingRow,startingColumn,sheet.getLastRowNum()+1,sheet.getRow(startingRow).getLastCellNum());
     }
 
-    public Object[][] getData(int startingRow, int startingColumn, int endingRow, int endingColumn) throws IOException {
+    public Object[][] getData(int startingRow, int startingColumn, int endingRow, int endingColumn) {
         startingRow--;
         Object[][] data = new Object[endingRow-startingRow][(endingColumn-startingColumn)+1];
         DataFormatter formatter = new DataFormatter();
