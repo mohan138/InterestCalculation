@@ -1,0 +1,144 @@
+2022-09-20 23:03:54.869 [Forwarding newSession on session null to remote] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.processId: 11960 (auto-detected)
+2022-09-20 23:03:54.873 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+2022-09-20 23:03:54.873 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+2022-09-20 23:03:54.876 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtilInitializations - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1%lo0)
+2022-09-20 23:03:54.877 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - Failed to get SOMAXCONN from sysctl and file /proc/sys/net/core/somaxconn. Default: 128
+2022-09-20 23:03:54.878 [Forwarding newSession on session null to remote] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.machineId: a0:78:17:ff:fe:b3:00:e5 (auto-detected)
+2022-09-20 23:03:54.907 [AsyncHttpClient-1-3] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+2022-09-20 23:03:54.907 [AsyncHttpClient-1-3] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+2022-09-20 23:03:54.907 [AsyncHttpClient-1-3] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@590de6b2
+2022-09-20 23:03:54.923 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2022-09-20 23:03:54.924 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
+2022-09-20 23:03:54.924 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.chunkSize: 32
+2022-09-20 23:03:54.924 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.blocking: false
+2022-09-20 23:03:55.759 [AsyncHttpClient-1-4] DEBUG io.netty.handler.codec.compression.Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
+2022-09-20 23:03:55.876 [TestNG-tests-3] INFO  com.testCases.setupAndClose - Safari browser opened
+2022-09-20 23:03:55.964 [TestNG-tests-3] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2022-09-20 23:03:55.966 [TestNG-tests-3] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2022-09-20 23:03:56.091 [TestNG-tests-1] DEBUG io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0xe807e63aad0f2488
+2022-09-20 23:03:56.122 [TestNG-tests-1] INFO  com.testCases.setupAndClose - Chrome browser opened
+2022-09-20 23:03:56.128 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2022-09-20 23:03:56.135 [TestNG-tests-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2022-09-20 23:03:57.106 [TestNG-tests-2] INFO  com.testCases.setupAndClose - Firefox browser opened
+2022-09-20 23:03:57.111 [TestNG-tests-2] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2022-09-20 23:03:57.111 [TestNG-tests-2] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2022-09-20 23:04:01.241 [TestNG-tests-3] INFO  com.testCases.calculationPageTest - SafariDriver: Safari on MAC (3EFC2210-0097-4BC0-A7FC-27D2F0CA6FA1) entered 5600 as principal amount
+2022-09-20 23:04:01.287 [TestNG-tests-3] INFO  com.testCases.calculationPageTest - SafariDriver: Safari on MAC (3EFC2210-0097-4BC0-A7FC-27D2F0CA6FA1) entered 10 as rate of interest
+2022-09-20 23:04:01.318 [TestNG-tests-3] INFO  com.testCases.calculationPageTest - SafariDriver: Safari on MAC (3EFC2210-0097-4BC0-A7FC-27D2F0CA6FA1) entered 2as tenure
+2022-09-20 23:04:01.374 [TestNG-tests-3] INFO  com.testCases.calculationPageTest - SafariDriver: Safari on MAC (3EFC2210-0097-4BC0-A7FC-27D2F0CA6FA1) selected year(s) as tenure period
+2022-09-20 23:04:01.404 [TestNG-tests-3] INFO  com.testCases.calculationPageTest - SafariDriver: Safari on MAC (3EFC2210-0097-4BC0-A7FC-27D2F0CA6FA1) Selected Simple Interest as frequency
+2022-09-20 23:04:01.421 [TestNG-tests-3] INFO  com.testCases.calculationPageTest - SafariDriver: Safari on MAC (3EFC2210-0097-4BC0-A7FC-27D2F0CA6FA1) Clicked calculate
+2022-09-20 23:04:01.437 [TestNG-tests-3] INFO  com.testCases.calculationPageTest - SafariDriver: Safari on MAC (3EFC2210-0097-4BC0-A7FC-27D2F0CA6FA1) Got Maturity value of 
+2022-09-20 23:04:01.467 [TestNG-tests-3] INFO  com.testCases.calculationPageTest - SafariDriver: Safari on MAC (3EFC2210-0097-4BC0-A7FC-27D2F0CA6FA1) Cleared
+2022-09-20 23:04:02.547 [TestNG-tests-1] INFO  com.testCases.calculationPageTest - ChromeDriver: chrome on MAC (95d983529aaf23a9d7c58cf4235cecca) entered 5600 as principal amount
+2022-09-20 23:04:02.578 [TestNG-tests-1] INFO  com.testCases.calculationPageTest - ChromeDriver: chrome on MAC (95d983529aaf23a9d7c58cf4235cecca) entered 10 as rate of interest
+2022-09-20 23:04:02.606 [TestNG-tests-1] INFO  com.testCases.calculationPageTest - ChromeDriver: chrome on MAC (95d983529aaf23a9d7c58cf4235cecca) entered 2as tenure
+2022-09-20 23:04:02.646 [TestNG-tests-1] INFO  com.testCases.calculationPageTest - ChromeDriver: chrome on MAC (95d983529aaf23a9d7c58cf4235cecca) selected year(s) as tenure period
+2022-09-20 23:04:02.679 [TestNG-tests-1] INFO  com.testCases.calculationPageTest - ChromeDriver: chrome on MAC (95d983529aaf23a9d7c58cf4235cecca) Selected Simple Interest as frequency
+2022-09-20 23:04:02.721 [TestNG-tests-1] INFO  com.testCases.calculationPageTest - ChromeDriver: chrome on MAC (95d983529aaf23a9d7c58cf4235cecca) Clicked calculate
+2022-09-20 23:04:02.788 [TestNG-tests-1] INFO  com.testCases.calculationPageTest - ChromeDriver: chrome on MAC (95d983529aaf23a9d7c58cf4235cecca) Got Maturity value of 6720.00
+2022-09-20 23:04:02.861 [TestNG-tests-3] INFO  com.testCases.calculationPageTest - SafariDriver: Safari on MAC (3EFC2210-0097-4BC0-A7FC-27D2F0CA6FA1) entered 6756 as principal amount
+2022-09-20 23:04:02.871 [TestNG-tests-2] INFO  com.testCases.calculationPageTest - FirefoxDriver: firefox on MAC (27fe01ee-d814-4db4-9a2b-772bda066e0b) entered 5600 as principal amount
+2022-09-20 23:04:02.885 [TestNG-tests-2] INFO  com.testCases.calculationPageTest - FirefoxDriver: firefox on MAC (27fe01ee-d814-4db4-9a2b-772bda066e0b) entered 10 as rate of interest
+2022-09-20 23:04:02.895 [TestNG-tests-3] INFO  com.testCases.calculationPageTest - SafariDriver: Safari on MAC (3EFC2210-0097-4BC0-A7FC-27D2F0CA6FA1) entered 15 as rate of interest
+2022-09-20 23:04:02.901 [TestNG-tests-2] INFO  com.testCases.calculationPageTest - FirefoxDriver: firefox on MAC (27fe01ee-d814-4db4-9a2b-772bda066e0b) entered 2as tenure
+2022-09-20 23:04:02.935 [TestNG-tests-3] INFO  com.testCases.calculationPageTest - SafariDriver: Safari on MAC (3EFC2210-0097-4BC0-A7FC-27D2F0CA6FA1) entered 5as tenure
+2022-09-20 23:04:02.939 [TestNG-tests-1] INFO  com.testCases.calculationPageTest - ChromeDriver: chrome on MAC (95d983529aaf23a9d7c58cf4235cecca) Cleared
+2022-09-20 23:04:02.965 [TestNG-tests-3] INFO  com.testCases.calculationPageTest - SafariDriver: Safari on MAC (3EFC2210-0097-4BC0-A7FC-27D2F0CA6FA1) selected year(s) as tenure period
+2022-09-20 23:04:02.991 [TestNG-tests-3] INFO  com.testCases.calculationPageTest - SafariDriver: Safari on MAC (3EFC2210-0097-4BC0-A7FC-27D2F0CA6FA1) Selected Compounded Monthly as frequency
+2022-09-20 23:04:03.007 [TestNG-tests-3] INFO  com.testCases.calculationPageTest - SafariDriver: Safari on MAC (3EFC2210-0097-4BC0-A7FC-27D2F0CA6FA1) Clicked calculate
+2022-09-20 23:04:03.022 [TestNG-tests-3] INFO  com.testCases.calculationPageTest - SafariDriver: Safari on MAC (3EFC2210-0097-4BC0-A7FC-27D2F0CA6FA1) Got Maturity value of 
+2022-09-20 23:04:03.052 [TestNG-tests-3] INFO  com.testCases.calculationPageTest - SafariDriver: Safari on MAC (3EFC2210-0097-4BC0-A7FC-27D2F0CA6FA1) Cleared
+2022-09-20 23:04:03.132 [TestNG-tests-2] INFO  com.testCases.calculationPageTest - FirefoxDriver: firefox on MAC (27fe01ee-d814-4db4-9a2b-772bda066e0b) selected year(s) as tenure period
+2022-09-20 23:04:03.370 [TestNG-tests-2] INFO  com.testCases.calculationPageTest - FirefoxDriver: firefox on MAC (27fe01ee-d814-4db4-9a2b-772bda066e0b) Selected Simple Interest as frequency
+2022-09-20 23:04:03.586 [TestNG-tests-2] INFO  com.testCases.calculationPageTest - FirefoxDriver: firefox on MAC (27fe01ee-d814-4db4-9a2b-772bda066e0b) Clicked calculate
+2022-09-20 23:04:03.603 [TestNG-tests-2] INFO  com.testCases.calculationPageTest - FirefoxDriver: firefox on MAC (27fe01ee-d814-4db4-9a2b-772bda066e0b) Got Maturity value of 6720.00
+2022-09-20 23:04:03.766 [TestNG-tests-1] INFO  com.testCases.calculationPageTest - ChromeDriver: chrome on MAC (95d983529aaf23a9d7c58cf4235cecca) entered 6756 as principal amount
+2022-09-20 23:04:03.792 [TestNG-tests-1] INFO  com.testCases.calculationPageTest - ChromeDriver: chrome on MAC (95d983529aaf23a9d7c58cf4235cecca) entered 15 as rate of interest
+2022-09-20 23:04:03.815 [TestNG-tests-1] INFO  com.testCases.calculationPageTest - ChromeDriver: chrome on MAC (95d983529aaf23a9d7c58cf4235cecca) entered 5as tenure
+2022-09-20 23:04:03.822 [TestNG-tests-2] INFO  com.testCases.calculationPageTest - FirefoxDriver: firefox on MAC (27fe01ee-d814-4db4-9a2b-772bda066e0b) Cleared
+2022-09-20 23:04:03.872 [TestNG-tests-1] INFO  com.testCases.calculationPageTest - ChromeDriver: chrome on MAC (95d983529aaf23a9d7c58cf4235cecca) selected year(s) as tenure period
+2022-09-20 23:04:03.926 [TestNG-tests-1] INFO  com.testCases.calculationPageTest - ChromeDriver: chrome on MAC (95d983529aaf23a9d7c58cf4235cecca) Selected Compounded Monthly as frequency
+2022-09-20 23:04:03.973 [TestNG-tests-1] INFO  com.testCases.calculationPageTest - ChromeDriver: chrome on MAC (95d983529aaf23a9d7c58cf4235cecca) Clicked calculate
+2022-09-20 23:04:04.008 [TestNG-tests-1] INFO  com.testCases.calculationPageTest - ChromeDriver: chrome on MAC (95d983529aaf23a9d7c58cf4235cecca) Got Maturity value of 14236.12
+2022-09-20 23:04:04.044 [TestNG-tests-1] INFO  com.testCases.calculationPageTest - ChromeDriver: chrome on MAC (95d983529aaf23a9d7c58cf4235cecca) Cleared
+2022-09-20 23:04:04.209 [TestNG-tests-3] INFO  com.testCases.calculationPageTest - SafariDriver: Safari on MAC (3EFC2210-0097-4BC0-A7FC-27D2F0CA6FA1) entered 8239 as principal amount
+2022-09-20 23:04:04.242 [TestNG-tests-3] INFO  com.testCases.calculationPageTest - SafariDriver: Safari on MAC (3EFC2210-0097-4BC0-A7FC-27D2F0CA6FA1) entered 10 as rate of interest
+2022-09-20 23:04:04.272 [TestNG-tests-3] INFO  com.testCases.calculationPageTest - SafariDriver: Safari on MAC (3EFC2210-0097-4BC0-A7FC-27D2F0CA6FA1) entered 3as tenure
+2022-09-20 23:04:04.307 [TestNG-tests-3] INFO  com.testCases.calculationPageTest - SafariDriver: Safari on MAC (3EFC2210-0097-4BC0-A7FC-27D2F0CA6FA1) selected year(s) as tenure period
+2022-09-20 23:04:04.333 [TestNG-tests-3] INFO  com.testCases.calculationPageTest - SafariDriver: Safari on MAC (3EFC2210-0097-4BC0-A7FC-27D2F0CA6FA1) Selected Compounded Quarterly as frequency
+2022-09-20 23:04:04.358 [TestNG-tests-3] INFO  com.testCases.calculationPageTest - SafariDriver: Safari on MAC (3EFC2210-0097-4BC0-A7FC-27D2F0CA6FA1) Clicked calculate
+2022-09-20 23:04:04.392 [TestNG-tests-3] INFO  com.testCases.calculationPageTest - SafariDriver: Safari on MAC (3EFC2210-0097-4BC0-A7FC-27D2F0CA6FA1) Got Maturity value of 
+2022-09-20 23:04:04.406 [TestNG-tests-3] INFO  com.testCases.calculationPageTest - SafariDriver: Safari on MAC (3EFC2210-0097-4BC0-A7FC-27D2F0CA6FA1) Cleared
+2022-09-20 23:04:04.650 [TestNG-tests-2] INFO  com.testCases.calculationPageTest - FirefoxDriver: firefox on MAC (27fe01ee-d814-4db4-9a2b-772bda066e0b) entered 6756 as principal amount
+2022-09-20 23:04:04.661 [TestNG-tests-2] INFO  com.testCases.calculationPageTest - FirefoxDriver: firefox on MAC (27fe01ee-d814-4db4-9a2b-772bda066e0b) entered 15 as rate of interest
+2022-09-20 23:04:04.669 [TestNG-tests-1] INFO  com.testCases.calculationPageTest - ChromeDriver: chrome on MAC (95d983529aaf23a9d7c58cf4235cecca) entered 8239 as principal amount
+2022-09-20 23:04:04.672 [TestNG-tests-2] INFO  com.testCases.calculationPageTest - FirefoxDriver: firefox on MAC (27fe01ee-d814-4db4-9a2b-772bda066e0b) entered 5as tenure
+2022-09-20 23:04:04.708 [TestNG-tests-1] INFO  com.testCases.calculationPageTest - ChromeDriver: chrome on MAC (95d983529aaf23a9d7c58cf4235cecca) entered 10 as rate of interest
+2022-09-20 23:04:04.733 [TestNG-tests-1] INFO  com.testCases.calculationPageTest - ChromeDriver: chrome on MAC (95d983529aaf23a9d7c58cf4235cecca) entered 3as tenure
+2022-09-20 23:04:04.771 [TestNG-tests-1] INFO  com.testCases.calculationPageTest - ChromeDriver: chrome on MAC (95d983529aaf23a9d7c58cf4235cecca) selected year(s) as tenure period
+2022-09-20 23:04:04.792 [TestNG-tests-1] INFO  com.testCases.calculationPageTest - ChromeDriver: chrome on MAC (95d983529aaf23a9d7c58cf4235cecca) Selected Compounded Quarterly as frequency
+2022-09-20 23:04:04.821 [TestNG-tests-1] INFO  com.testCases.calculationPageTest - ChromeDriver: chrome on MAC (95d983529aaf23a9d7c58cf4235cecca) Clicked calculate
+2022-09-20 23:04:04.842 [TestNG-tests-1] INFO  com.testCases.calculationPageTest - ChromeDriver: chrome on MAC (95d983529aaf23a9d7c58cf4235cecca) Got Maturity value of 11080.54
+2022-09-20 23:04:04.874 [TestNG-tests-1] INFO  com.testCases.calculationPageTest - ChromeDriver: chrome on MAC (95d983529aaf23a9d7c58cf4235cecca) Cleared
+2022-09-20 23:04:04.898 [TestNG-tests-2] INFO  com.testCases.calculationPageTest - FirefoxDriver: firefox on MAC (27fe01ee-d814-4db4-9a2b-772bda066e0b) selected year(s) as tenure period
+2022-09-20 23:04:05.128 [TestNG-tests-2] INFO  com.testCases.calculationPageTest - FirefoxDriver: firefox on MAC (27fe01ee-d814-4db4-9a2b-772bda066e0b) Selected Compounded Monthly as frequency
+2022-09-20 23:04:05.344 [TestNG-tests-2] INFO  com.testCases.calculationPageTest - FirefoxDriver: firefox on MAC (27fe01ee-d814-4db4-9a2b-772bda066e0b) Clicked calculate
+2022-09-20 23:04:05.355 [TestNG-tests-2] INFO  com.testCases.calculationPageTest - FirefoxDriver: firefox on MAC (27fe01ee-d814-4db4-9a2b-772bda066e0b) Got Maturity value of 14236.12
+2022-09-20 23:04:05.373 [TestNG-tests-3] INFO  com.testCases.calculationPageTest - SafariDriver: Safari on MAC (3EFC2210-0097-4BC0-A7FC-27D2F0CA6FA1) entered 2534 as principal amount
+2022-09-20 23:04:05.395 [TestNG-tests-3] INFO  com.testCases.calculationPageTest - SafariDriver: Safari on MAC (3EFC2210-0097-4BC0-A7FC-27D2F0CA6FA1) entered 6 as rate of interest
+2022-09-20 23:04:05.416 [TestNG-tests-3] INFO  com.testCases.calculationPageTest - SafariDriver: Safari on MAC (3EFC2210-0097-4BC0-A7FC-27D2F0CA6FA1) entered 2as tenure
+2022-09-20 23:04:05.434 [TestNG-tests-3] INFO  com.testCases.calculationPageTest - SafariDriver: Safari on MAC (3EFC2210-0097-4BC0-A7FC-27D2F0CA6FA1) selected year(s) as tenure period
+2022-09-20 23:04:05.460 [TestNG-tests-3] INFO  com.testCases.calculationPageTest - SafariDriver: Safari on MAC (3EFC2210-0097-4BC0-A7FC-27D2F0CA6FA1) Selected Compounded Half Yearly as frequency
+2022-09-20 23:04:05.473 [TestNG-tests-3] INFO  com.testCases.calculationPageTest - SafariDriver: Safari on MAC (3EFC2210-0097-4BC0-A7FC-27D2F0CA6FA1) Clicked calculate
+2022-09-20 23:04:05.484 [TestNG-tests-3] INFO  com.testCases.calculationPageTest - SafariDriver: Safari on MAC (3EFC2210-0097-4BC0-A7FC-27D2F0CA6FA1) Got Maturity value of 
+2022-09-20 23:04:05.493 [TestNG-tests-3] INFO  com.testCases.calculationPageTest - SafariDriver: Safari on MAC (3EFC2210-0097-4BC0-A7FC-27D2F0CA6FA1) Cleared
+2022-09-20 23:04:05.567 [TestNG-tests-2] INFO  com.testCases.calculationPageTest - FirefoxDriver: firefox on MAC (27fe01ee-d814-4db4-9a2b-772bda066e0b) Cleared
+2022-09-20 23:04:05.678 [TestNG-tests-1] INFO  com.testCases.calculationPageTest - ChromeDriver: chrome on MAC (95d983529aaf23a9d7c58cf4235cecca) entered 2534 as principal amount
+2022-09-20 23:04:05.727 [TestNG-tests-1] INFO  com.testCases.calculationPageTest - ChromeDriver: chrome on MAC (95d983529aaf23a9d7c58cf4235cecca) entered 6 as rate of interest
+2022-09-20 23:04:05.774 [TestNG-tests-1] INFO  com.testCases.calculationPageTest - ChromeDriver: chrome on MAC (95d983529aaf23a9d7c58cf4235cecca) entered 2as tenure
+2022-09-20 23:04:05.810 [TestNG-tests-1] INFO  com.testCases.calculationPageTest - ChromeDriver: chrome on MAC (95d983529aaf23a9d7c58cf4235cecca) selected year(s) as tenure period
+2022-09-20 23:04:05.840 [TestNG-tests-1] INFO  com.testCases.calculationPageTest - ChromeDriver: chrome on MAC (95d983529aaf23a9d7c58cf4235cecca) Selected Compounded Half Yearly as frequency
+2022-09-20 23:04:05.866 [TestNG-tests-1] INFO  com.testCases.calculationPageTest - ChromeDriver: chrome on MAC (95d983529aaf23a9d7c58cf4235cecca) Clicked calculate
+2022-09-20 23:04:05.882 [TestNG-tests-1] INFO  com.testCases.calculationPageTest - ChromeDriver: chrome on MAC (95d983529aaf23a9d7c58cf4235cecca) Got Maturity value of 2852.04
+2022-09-20 23:04:05.905 [TestNG-tests-1] INFO  com.testCases.calculationPageTest - ChromeDriver: chrome on MAC (95d983529aaf23a9d7c58cf4235cecca) Cleared
+2022-09-20 23:04:06.328 [TestNG-tests-2] INFO  com.testCases.calculationPageTest - FirefoxDriver: firefox on MAC (27fe01ee-d814-4db4-9a2b-772bda066e0b) entered 8239 as principal amount
+2022-09-20 23:04:06.335 [TestNG-tests-2] INFO  com.testCases.calculationPageTest - FirefoxDriver: firefox on MAC (27fe01ee-d814-4db4-9a2b-772bda066e0b) entered 10 as rate of interest
+2022-09-20 23:04:06.342 [TestNG-tests-2] INFO  com.testCases.calculationPageTest - FirefoxDriver: firefox on MAC (27fe01ee-d814-4db4-9a2b-772bda066e0b) entered 3as tenure
+2022-09-20 23:04:06.459 [TestNG-tests-3] INFO  com.testCases.calculationPageTest - SafariDriver: Safari on MAC (3EFC2210-0097-4BC0-A7FC-27D2F0CA6FA1) entered 34231 as principal amount
+2022-09-20 23:04:06.474 [TestNG-tests-1] INFO  com.testCases.calculationPageTest - ChromeDriver: chrome on MAC (95d983529aaf23a9d7c58cf4235cecca) entered 34231 as principal amount
+2022-09-20 23:04:06.486 [TestNG-tests-3] INFO  com.testCases.calculationPageTest - SafariDriver: Safari on MAC (3EFC2210-0097-4BC0-A7FC-27D2F0CA6FA1) entered 8 as rate of interest
+2022-09-20 23:04:06.499 [TestNG-tests-1] INFO  com.testCases.calculationPageTest - ChromeDriver: chrome on MAC (95d983529aaf23a9d7c58cf4235cecca) entered 8 as rate of interest
+2022-09-20 23:04:06.504 [TestNG-tests-3] INFO  com.testCases.calculationPageTest - SafariDriver: Safari on MAC (3EFC2210-0097-4BC0-A7FC-27D2F0CA6FA1) entered 4as tenure
+2022-09-20 23:04:06.527 [TestNG-tests-3] INFO  com.testCases.calculationPageTest - SafariDriver: Safari on MAC (3EFC2210-0097-4BC0-A7FC-27D2F0CA6FA1) selected year(s) as tenure period
+2022-09-20 23:04:06.527 [TestNG-tests-1] INFO  com.testCases.calculationPageTest - ChromeDriver: chrome on MAC (95d983529aaf23a9d7c58cf4235cecca) entered 4as tenure
+2022-09-20 23:04:06.555 [TestNG-tests-3] INFO  com.testCases.calculationPageTest - SafariDriver: Safari on MAC (3EFC2210-0097-4BC0-A7FC-27D2F0CA6FA1) Selected Compounded Yearly as frequency
+2022-09-20 23:04:06.562 [TestNG-tests-2] INFO  com.testCases.calculationPageTest - FirefoxDriver: firefox on MAC (27fe01ee-d814-4db4-9a2b-772bda066e0b) selected year(s) as tenure period
+2022-09-20 23:04:06.571 [TestNG-tests-1] INFO  com.testCases.calculationPageTest - ChromeDriver: chrome on MAC (95d983529aaf23a9d7c58cf4235cecca) selected year(s) as tenure period
+2022-09-20 23:04:06.573 [TestNG-tests-3] INFO  com.testCases.calculationPageTest - SafariDriver: Safari on MAC (3EFC2210-0097-4BC0-A7FC-27D2F0CA6FA1) Clicked calculate
+2022-09-20 23:04:06.575 [TestNG-tests-2] INFO  com.testCases.calculationPageTest - FirefoxDriver: firefox on MAC (27fe01ee-d814-4db4-9a2b-772bda066e0b) Selected Compounded Quarterly as frequency
+2022-09-20 23:04:06.593 [TestNG-tests-3] INFO  com.testCases.calculationPageTest - SafariDriver: Safari on MAC (3EFC2210-0097-4BC0-A7FC-27D2F0CA6FA1) Got Maturity value of 
+2022-09-20 23:04:06.609 [TestNG-tests-3] INFO  com.testCases.calculationPageTest - SafariDriver: Safari on MAC (3EFC2210-0097-4BC0-A7FC-27D2F0CA6FA1) Cleared
+2022-09-20 23:04:06.612 [TestNG-tests-1] INFO  com.testCases.calculationPageTest - ChromeDriver: chrome on MAC (95d983529aaf23a9d7c58cf4235cecca) Selected Compounded Yearly as frequency
+2022-09-20 23:04:06.651 [TestNG-tests-1] INFO  com.testCases.calculationPageTest - ChromeDriver: chrome on MAC (95d983529aaf23a9d7c58cf4235cecca) Clicked calculate
+2022-09-20 23:04:06.683 [TestNG-tests-1] INFO  com.testCases.calculationPageTest - ChromeDriver: chrome on MAC (95d983529aaf23a9d7c58cf4235cecca) Got Maturity value of 46570.90
+2022-09-20 23:04:06.712 [TestNG-tests-1] INFO  com.testCases.calculationPageTest - ChromeDriver: chrome on MAC (95d983529aaf23a9d7c58cf4235cecca) Cleared
+2022-09-20 23:04:06.791 [TestNG-tests-2] INFO  com.testCases.calculationPageTest - FirefoxDriver: firefox on MAC (27fe01ee-d814-4db4-9a2b-772bda066e0b) Clicked calculate
+2022-09-20 23:04:06.807 [TestNG-tests-2] INFO  com.testCases.calculationPageTest - FirefoxDriver: firefox on MAC (27fe01ee-d814-4db4-9a2b-772bda066e0b) Got Maturity value of 11080.54
+2022-09-20 23:04:07.020 [TestNG-tests-2] INFO  com.testCases.calculationPageTest - FirefoxDriver: firefox on MAC (27fe01ee-d814-4db4-9a2b-772bda066e0b) Cleared
+2022-09-20 23:04:07.660 [TestNG-tests-2] INFO  com.testCases.calculationPageTest - FirefoxDriver: firefox on MAC (27fe01ee-d814-4db4-9a2b-772bda066e0b) entered 2534 as principal amount
+2022-09-20 23:04:07.667 [TestNG-tests-2] INFO  com.testCases.calculationPageTest - FirefoxDriver: firefox on MAC (27fe01ee-d814-4db4-9a2b-772bda066e0b) entered 6 as rate of interest
+2022-09-20 23:04:07.673 [TestNG-tests-2] INFO  com.testCases.calculationPageTest - FirefoxDriver: firefox on MAC (27fe01ee-d814-4db4-9a2b-772bda066e0b) entered 2as tenure
+2022-09-20 23:04:07.889 [TestNG-tests-2] INFO  com.testCases.calculationPageTest - FirefoxDriver: firefox on MAC (27fe01ee-d814-4db4-9a2b-772bda066e0b) selected year(s) as tenure period
+2022-09-20 23:04:08.109 [TestNG-tests-2] INFO  com.testCases.calculationPageTest - FirefoxDriver: firefox on MAC (27fe01ee-d814-4db4-9a2b-772bda066e0b) Selected Compounded Half Yearly as frequency
+2022-09-20 23:04:08.321 [TestNG-tests-2] INFO  com.testCases.calculationPageTest - FirefoxDriver: firefox on MAC (27fe01ee-d814-4db4-9a2b-772bda066e0b) Clicked calculate
+2022-09-20 23:04:08.333 [TestNG-tests-2] INFO  com.testCases.calculationPageTest - FirefoxDriver: firefox on MAC (27fe01ee-d814-4db4-9a2b-772bda066e0b) Got Maturity value of 2852.04
+2022-09-20 23:04:08.547 [TestNG-tests-2] INFO  com.testCases.calculationPageTest - FirefoxDriver: firefox on MAC (27fe01ee-d814-4db4-9a2b-772bda066e0b) Cleared
+2022-09-20 23:04:09.308 [TestNG-tests-2] INFO  com.testCases.calculationPageTest - FirefoxDriver: firefox on MAC (27fe01ee-d814-4db4-9a2b-772bda066e0b) entered 34231 as principal amount
+2022-09-20 23:04:09.314 [TestNG-tests-2] INFO  com.testCases.calculationPageTest - FirefoxDriver: firefox on MAC (27fe01ee-d814-4db4-9a2b-772bda066e0b) entered 8 as rate of interest
+2022-09-20 23:04:09.321 [TestNG-tests-2] INFO  com.testCases.calculationPageTest - FirefoxDriver: firefox on MAC (27fe01ee-d814-4db4-9a2b-772bda066e0b) entered 4as tenure
+2022-09-20 23:04:09.539 [TestNG-tests-2] INFO  com.testCases.calculationPageTest - FirefoxDriver: firefox on MAC (27fe01ee-d814-4db4-9a2b-772bda066e0b) selected year(s) as tenure period
+2022-09-20 23:04:09.757 [TestNG-tests-2] INFO  com.testCases.calculationPageTest - FirefoxDriver: firefox on MAC (27fe01ee-d814-4db4-9a2b-772bda066e0b) Selected Compounded Yearly as frequency
+2022-09-20 23:04:09.973 [TestNG-tests-2] INFO  com.testCases.calculationPageTest - FirefoxDriver: firefox on MAC (27fe01ee-d814-4db4-9a2b-772bda066e0b) Clicked calculate
+2022-09-20 23:04:09.990 [TestNG-tests-2] INFO  com.testCases.calculationPageTest - FirefoxDriver: firefox on MAC (27fe01ee-d814-4db4-9a2b-772bda066e0b) Got Maturity value of 46570.90
+2022-09-20 23:04:10.205 [TestNG-tests-2] INFO  com.testCases.calculationPageTest - FirefoxDriver: firefox on MAC (27fe01ee-d814-4db4-9a2b-772bda066e0b) Cleared
