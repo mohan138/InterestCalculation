@@ -1,4 +1,5 @@
 package com.testCases;
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
@@ -17,12 +18,12 @@ public class setupAndClose {
         log = LogManager.getLogger(setupAndClose.class.getName());
         switch (browser){
             case "firefox" -> {
-                System.setProperty("webdriver.gecko.driver", "./Browser drivers/geckodriver");
+                WebDriverManager.firefoxdriver().setup();
                 driver = new FirefoxDriver();
                 log.info("Firefox browser opened");
             }
             case "chrome" -> {
-                System.setProperty("webdriver.chrome.driver", "./Browser drivers/chromedriver");
+                WebDriverManager.chromedriver().setup();
                 driver = new ChromeDriver();
                 log.info("Chrome browser opened");
             }
