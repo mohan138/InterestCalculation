@@ -4,23 +4,24 @@ import com.pageObjects.Elements;
 import com.utilities.ReadingExel;
 import org.apache.logging.log4j.LogManager;
 import org.testng.annotations.*;
+
 import java.io.IOException;
 
-public  class calculationPageTest extends setupAndClose{
+public  class calculation extends setupAndClose{
     @Test(dataProvider = "data")
-    public void calculationPage(String principalAmount, String rateOfInterest, String tenure, String frequency){
-        log = LogManager.getLogger(calculationPageTest.class.getName());
+    public void calculationPage(String principalAmount, String rateOfInterest, String tenure, String frequency) {
+        log = LogManager.getLogger(calculation.class.getName());
         driver.manage().window().maximize();
         driver.get("https://www.moneycontrol.com/fixed-income/calculator/state-bank-of-india-sbi/fixed-deposit-calculator-SBI-BSB001.html");
         Elements elements = new Elements(driver);
-        try{
-            if(elements.notificationCancel.isDisplayed()){
-                elements.notificationCancel.click();
-                elements.moveByOffset(25,25).perform();
+            try {
+                if (elements.notificationCancel.isDisplayed()) {
+                    elements.notificationCancel.click();
+                    elements.moveByOffset(25, 25).perform();
+                }
+            } catch (Exception e) {
+                e.printStackTrace();
             }
-        }catch (Exception e){
-            e.printStackTrace();
-        }
 
         elements.principal.sendKeys(principalAmount);
         log.info(driver+ " entered "+principalAmount+" as principal amount");
@@ -41,7 +42,7 @@ public  class calculationPageTest extends setupAndClose{
     }
 
     @DataProvider(name = "data")
-    public Object[][] dataProvider() throws IOException{
+    public Object[][] dataProvider() throws IOException {
         ReadingExel excel = new ReadingExel("./Files/Data.xlsx","Sheet1");
         return excel.getData();
     }
